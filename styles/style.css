@@ -1,6 +1,7 @@
 .header {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
+  min-height: 295px;
 }
 
 .header__menu {
@@ -11,28 +12,36 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  list-style: circle;
   gap: 20px;
+  list-style: circle;
 }
 
-.header__links-list-item {}
+.header__links-list-item {
+}
 .header__links-list-item_no-bullit {
   list-style: none;
 }
 
-.header__link {}
-.header__link_active {}
+.header__link {
+  font-size: 18px;
+}
+.header__link-active {
+  text-decoration: none;
+}
 
-.header__logo { display:inline-block; background: yellow;}
+.header__logo {
+  display: inline-block;
+  background: yellow;
+}
 .header__logo-image {
   /* width: 130px;
   height: auto; */
 }
 
-.address {}
-.header_address {}
-
-
+.address {
+}
+.header_address {
+}
 
 /* * 		header — вся шапка;
 * 		header__menu — контейнер навигации;
