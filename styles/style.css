@@ -15,11 +15,17 @@
   list-style: none;
 }
 
+.header__link {}
+.header__link_active {}
+
 .header__logo { display:inline-block; background: yellow;}
 .header__logo-image {
-  width: 130px;
-  height: auto;
+  /* width: 130px;
+  height: auto; */
 }
+
+.address {}
+.header_address {}
 
 
 
