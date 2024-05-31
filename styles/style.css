@@ -1,22 +1,28 @@
 .header {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
+  align-items: center;
   min-height: 295px;
 }
 
+.header div {
+}
+
 .header__menu {
-  grid-column-end: span 3;
+  grid-column: 1 / span 3;
 }
 
 .header__links-list {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  gap: 20px;
+  justify-content: right;
+  gap: 30px;
   list-style: circle;
+  padding-right: 40px;
 }
 
 .header__links-list-item {
+  margin: 0;
 }
 .header__links-list-item_no-bullit {
   list-style: none;
@@ -34,8 +40,8 @@
   background: yellow;
 }
 .header__logo-image {
-  /* width: 130px;
-  height: auto; */
+  width: 148px;
+  height: 105px;
 }
 
 .address {
