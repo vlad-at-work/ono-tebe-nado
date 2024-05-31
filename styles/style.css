@@ -1,1 +1,36 @@
-/* место для вашего кода */
+.header {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.header__links-list {
+  display: flex;
+  flex-direction: row;
+  list-style: circle;
+  gap: 20px;
+}
+
+.header__links-list-item { background:lightblue;}
+.header__links-list-item_no-bullit {
+  list-style: none;
+}
+
+.header__logo { display:inline-block; background: yellow;}
+.header__logo-image {
+  width: 130px;
+  height: auto;
+}
+
+
+
+/* * 		header — вся шапка;
+* 		header__menu — контейнер навигации;
+* 		header__links-list — список ссылок;
+* 		header__links-list-item — пункт списка ссылок;
+* 		header__links-list-item_no-bullit — вам может потребоваться этот класс, чтобы сделать ссылку без кружочка перед ней;
+* 		header__link — ссылка;
+* 		header__link_active — активная ссылка;
+* 		header__logo — контейнер логотипа;
+* 		header__logo-image — картинка с логотипом;
+* 		address — контейнер с адресом;
+* 		header__address — потребуется, чтобы выравнивать блок с адресом. В футере используется другое выравнивание. */
