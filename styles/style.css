@@ -1,9 +1,11 @@
 .header {
+  margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
   width: 1052px;
-  /* padding: 92px 24px 0px 24px; */
+  font-style: normal;
+  padding: 92px;
 }
 
 .header__menu {
@@ -46,26 +48,5 @@
 
 .address {
   display: flex;
-  /* justify-items: left; */
-  /* grid-column: 5 / span 4; */
   font-size: 18px;
-  justify-content: right;
-  text-align: left;
 }
-
-.address a {
-  /* display: block; */
-  /* font-style:normal; */
-}
-
-/* * 		header — вся шапка;
-* 		header__menu — контейнер навигации;
-* 		header__links-list — список ссылок;
-* 		header__links-list-item — пункт списка ссылок;
-* 		header__links-list-item_no-bullit — вам может потребоваться этот класс, чтобы сделать ссылку без кружочка перед ней;
-* 		header__link — ссылка;
-* 		header__link_active — активная ссылка;
-* 		header__logo — контейнер логотипа;
-* 		header__logo-image — картинка с логотипом;
-* 		address — контейнер с адресом;
-* 		header__address — потребуется, чтобы выравнивать блок с адресом. В футере используется другое выравнивание. */
