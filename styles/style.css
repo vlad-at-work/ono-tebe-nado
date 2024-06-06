@@ -5,7 +5,9 @@
   align-items: center;
   width: 1052px;
   font-style: normal;
-  /* padding: 92px; */
+  padding-top: 92px;
+  margin-left: 24px;
+  margin-right: 24px;
 }
 
 .header__menu {
