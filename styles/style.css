@@ -13,7 +13,6 @@
 .header__menu {
   display: flex;
   justify-content: right;
-  /* grid-column: 1 / span 4; */
 }
 
 .header__links-list {
