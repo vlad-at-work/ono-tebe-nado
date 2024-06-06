@@ -1,6 +1,6 @@
 .header {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(7, 1fr);
   align-items: center;
   width: 1052px;
   padding: 92px 24px 0px 24px;
@@ -36,9 +36,8 @@
 }
 
 .header__logo {
-  text-align:left;
+  text-align: left;
   display: inline-block;
-  background: yellow;
 }
 .header__logo-image {
   width: 148px;
@@ -46,8 +45,18 @@
 }
 
 .address {
+  grid-column: 6 / span 2; /* Adjusted to span columns 6 and 7 */
+  text-align: right;
+  padding-right: 24px; /* Adjust padding to move text */
 }
-.header_address {
+
+.address a {
+  display: block;
+}
+
+.header__address {
+  font-size: 18px;
+  font-style: none;
 }
 
 /* * 		header — вся шапка;
