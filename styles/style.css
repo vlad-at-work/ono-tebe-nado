@@ -1,15 +1,15 @@
 .header {
   display: grid;
-  grid-template-columns: repeat(7, 1fr);
+  grid-template-columns: 1fr min-content 1fr;
   align-items: center;
   width: 1052px;
-  padding: 92px 24px 0px 24px;
+  /* padding: 92px 24px 0px 24px; */
 }
 
 .header__menu {
   display: flex;
   justify-content: right;
-  grid-column: 1 / span 3;
+  /* grid-column: 1 / span 4; */
 }
 
 .header__links-list {
@@ -45,23 +45,17 @@
 }
 
 .address {
-  grid-column: 6 / span 2; /* Adjusted to span columns 6 and 7 */
-  text-align: center;
-  padding-right: 67px; /* Adjust padding to move text */
-  padding-top:7px;
+  display: flex;
+  /* justify-items: left; */
+  /* grid-column: 5 / span 4; */
+  font-size: 18px;
+  justify-content: right;
+  text-align: left;
 }
 
 .address a {
-  display: block;
-}
-
-.address__address1 {
-  line-height: 0.95em;
-}
-
-.header__address {
-  font-size: 18px;
-  font-style: none;
+  /* display: block; */
+  /* font-style:normal; */
 }
 
 /* * 		header — вся шапка;
