@@ -48,12 +48,15 @@
 }
 
 .address {
-  display: flex;
+  /* display: flex; */
   font-size: 18px;
-  justify-content: right;
-  padding-right: 28px;
+  /* justify-content: right; */
+  /* padding-right: 28px; */
+  justify-self: end;
   text-decoration: normal;
   line-height:24px;
+  /* text-align:right; */
+  margin-right: 26px;
 }
 
 address {
