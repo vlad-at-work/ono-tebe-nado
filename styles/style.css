@@ -1,13 +1,12 @@
 .header {
-  margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
   width: 1052px;
-  font-style: normal;
+  margin-right: 25px;
+  margin-left: 25px;
   padding-top: 92px;
-  margin-left: 24px;
-  margin-right: 24px;
+  font-style: normal;
 }
 
 .header__menu {
@@ -19,9 +18,9 @@
   display: flex;
   flex-direction: row;
   justify-content: right;
-  gap: 32px;
-  list-style: circle;
+  gap: 31px;
   padding-right: 40px;
+  list-style: circle;
 }
 
 .header__links-list-item {
@@ -39,26 +38,86 @@
 }
 
 .header__logo {
-  text-align: left;
   display: inline-block;
+  text-align: left;
 }
 .header__logo-image {
   width: 148px;
   height: 105px;
 }
 
-.address {
-  /* display: flex; */
-  font-size: 18px;
-  /* justify-content: right; */
-  /* padding-right: 28px; */
-  justify-self: end;
-  text-decoration: normal;
-  line-height:24px;
-  /* text-align:right; */
-  margin-right: 26px;
-}
-
 address {
   font-style: normal;
 }
+
+.address {
+  justify-self: end;
+  margin-right: 28px;
+  font-size: 18px;
+  line-height: 25px;
+  text-decoration: normal;
+}
+
+.telephone {
+  text-underline-offset: 4px;
+}
+
+.email {
+  text-underline-offset: 4px;
+}
+
+/* cover section */
+.cover {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+  position: relative;
+  z-index: 2;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.5);
+  z-index: 1;
+}
+
+.cover__title {
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+}
+
+.aligned-text {
+  justify-self: start;
+}
+
+.aligned-text_center {
+  justify-self: center;
+}
+
+.aligned-text_right {
+  justify-self: end;
+}
+
+.letter-spacing-extended {
+
+}
+
+.cover__description {
+
+}
+
+.cover__description-text {
+
+}
+
+.bet-button {}
+
+/* * 		no-letter-spacing — класс для обнуления общего межбуквенного расстояния для последней буквы;
+* 		cover__description — контейнер для подзаголовка и кнопки;
+* 		cover__description-text — текст подзаголовка;
+* 		bet-button — кнопка «Сделать ставку». */
