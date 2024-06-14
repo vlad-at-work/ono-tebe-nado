@@ -158,28 +158,40 @@ address {
   margin-right: 50px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
 /* LOTS */
 .lots {
   padding: 0px 24px 0px 24px;
 }
 
 .lots__heading {
-  /* display: block;
+  display: block;
   font-size: 40px;
-  margin-top: 179px;
-  padding-left: 64px;
-  margin-bottom: 26px; */
+  margin-top: 180px;
+  padding-left: 40px;
+  margin-bottom: 26px;
 }
 
 .lots__card-list {
   display: flex;
   flex-direction: row;
-  /* gap: 24px; */
+  gap: 24px;
   list-style-type: none;
 }
 
 .lots__card-list-item {
-  /* flex-grow: 1; */
+  flex-grow: 1;
   max-width: 334px;
   min-height: 563px;
 }
@@ -191,16 +203,15 @@ address {
 }
 
 .card {
-  /* position: relative;
+  position: relative;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-content: space-between;
   height: 100%;
   padding: 48px 40px 48px 40px;
-  padding-left: 50px;
   background-position: top;
-  background-size: cover; */
+  background-size: cover;
 }
 
 .card_type_film {
@@ -222,6 +233,7 @@ address {
   text-decoration-thickness: 1px;
   text-underline-offset: 3px;
   text-transform: uppercase;
+  line-height: 26px;
 }
 
 .card__text {
