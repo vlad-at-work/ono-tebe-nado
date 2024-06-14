@@ -6,7 +6,7 @@
   width: 1052px;
   margin-right: 25px;
   margin-left: 25px;
-  padding-top: 95px;
+  margin-top: 92px;
   font-style: normal;
 }
 
@@ -49,16 +49,13 @@
   height: 105px;
 }
 
-address {
-  font-style: normal;
-}
-
 .address {
   justify-self: end;
   margin-right: 30px;
   font-size: 18px;
   line-height: 24px;
   text-decoration: normal;
+  font-style: normal;
 }
 
 .address a {
@@ -70,7 +67,7 @@ address {
 .cover {
   position: relative;
   z-index: 2;
-  margin-top: 85px;
+  margin-top: 92px;
   padding-bottom: 24px;
   color: #fff;
   background: url("../images/cover.jpg");
@@ -109,14 +106,14 @@ address {
 
 .aligned-text_center {
   display: block;
-  line-height: 87px;
+  line-height: 84px;
   text-align: center;
 }
 
 .aligned-text_right {
   display: block;
   padding-right: 20px;
-  line-height: 107px;
+  line-height: 98px;
   text-align: right;
 }
 
@@ -137,6 +134,7 @@ address {
 .cover__description-text {
   display: inline;
   padding-left: 82px;
+  padding-top:5px;
   color: #fff;
   font-weight: 400;
   font-size: 22px;
@@ -148,6 +146,7 @@ address {
 .bet-button {
   width: 256px;
   height: 51px;
+  margin-top: 3px;
   margin-right: 50px;
   border: 1px solid #fff;
   padding: 10px;
