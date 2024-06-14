@@ -6,7 +6,7 @@
   width: 1052px;
   margin-right: 25px;
   margin-left: 25px;
-  padding-top: 92px;
+  padding-top: 95px;
   font-style: normal;
 }
 
@@ -105,20 +105,20 @@ address {
   display: block;
   padding-top: 165px;
   padding-left: 50px;
-  line-height: 115px;
+  line-height: 118px;
   text-align: left;
 }
 
 .aligned-text_center {
   display: block;
-  line-height: 84px;
+  line-height: 87px;
   text-align: center;
 }
 
 .aligned-text_right {
   display: block;
   padding-right: 20px;
-  line-height: 95px;
+  line-height: 107px;
   text-align: right;
 }
 
