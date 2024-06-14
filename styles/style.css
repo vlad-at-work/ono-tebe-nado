@@ -61,11 +61,8 @@ address {
   text-decoration: normal;
 }
 
-.telephone {
-  text-underline-offset: 3px;
-}
-
-.email {
+.address a {
+  display: block;
   text-underline-offset: 4px;
 }
 
@@ -73,13 +70,14 @@ address {
 .cover {
   position: relative;
   z-index: 2;
-  margin-top: 92px;
+  margin-top: 85px;
   padding-bottom: 24px;
   color: #fff;
   background: url("../images/cover.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  text-transform: uppercase;
 }
 
 .overlay {
